@@ -1,0 +1,8 @@
+Counts: {'type1a': 1729, 'type1b': 1609, 'type1': 1662, 'other': 600}
+Real: {}
+Synthetic: {'type1a': 1729, 'type1b': 1609, 'type1': 1662, 'other': 600}
+Errors: 0
+Warnings: 3
+WARN  - real type1a: 0 < recommended 150
+WARN  - real type1b: 0 < recommended 300
+WARN  - real other: 0 < recommended 50

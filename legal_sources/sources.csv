@@ -1,0 +1,8 @@
+id;purpose;source_page;license;notes
+hf_ocr_small;OCR pretraining;https://huggingface.co/datasets/Foximaz/russian_ocr_small;CC BY 4.0;1500 Russian plate crops in car_plate subset
+hf_detect;type1 detection pretraining;https://huggingface.co/datasets/AY000554/Car_plate_detecting_dataset;CC BY 4.0 per dataset README;~25.6k Russian car images with YOLO boxes
+roboflow_type1a;type1a detection reference;https://universe.roboflow.com/fverwfgerwf/two-line-russian-license-plates;CC BY 4.0;27 two-line Russian plates
+commons_type1a;type1a geometry reference;https://commons.wikimedia.org/wiki/File:License_plate_in_Russia_1A.png;CC0 1.0;valid challenge-style two-line example B555PX39
+commons_type1a_vehicle;real vehicle reference;https://commons.wikimedia.org/wiki/File:Moscow,_Bestune_EO5,_May_2025_01.jpg;CC0 1.0;real vehicle with small Japanese-style plate;region format differs from challenge rule
+commons_type1b;type1b yellow appearance reference;https://commons.wikimedia.org/wiki/File:Russian_license_plate_(for_taxi,_buses).png;Public Domain;real GOST-style yellow plate appearance;character order differs from challenge mask
+commons_type1b_photo;type1b yellow appearance reference;https://commons.wikimedia.org/wiki/File:Licenseplate_Russia_Buss_-_Taxi_01.jpg;CC BY-SA 4.0;photograph of physical yellow plate;character order differs from challenge mask

@@ -1,0 +1,4 @@
+LETTERS = "ABEKMHOPCTYX"
+DIGITS = "0123456789"
+ALLOWED = LETTERS + DIGITS
+PLATE_TYPES = {"type1", "type1a", "type1b", "other"}

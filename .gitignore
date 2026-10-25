@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+runs/
+yolo_dataset/
+models/*.pt
+models/*.onnx
+results/*.csv
+
+.pytest_cache/
+*.log
